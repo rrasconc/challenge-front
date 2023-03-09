@@ -1,0 +1,53 @@
+.title {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.component_container {
+  position: relative;
+}
+
+.main {
+  display: grid;
+  gap: 1em;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  width: 64px;
+  border: 0;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.success {
+  background-color: #12b854;
+}
+.success:hover {
+  background-color: #125e30;
+}
+
+.danger {
+  background-color: #d84545;
+}
+.danger:hover {
+  background-color: #761b1b;
+}
+
+.actions-container {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  padding: 8px;
+  align-items: center;
+}
+
+.radio-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
